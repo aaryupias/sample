@@ -65,12 +65,20 @@
   <access origin="googleapis.com" subdomains="true"/>
   <access origin="gstatic.com" subdomains="true"/>
   <access origin="googleusercontent.com" subdomains="true"/>
+	
 	<access origin="*.feedburner.com" />
-	<access origin="http://feeds.feedburner.com/jobsuchana" />
-	<access origin="http://feeds.feedburner.com/jobsuchana/exam-routine-result" />
-	<access origin="http://feeds.feedburner.com/jobsuchana/job-vacancy" />
-	<access origin="http://feeds.feedburner.com/jobsuchana/syllabus" />
+	<access origin="*.feedburner.com/*" />
+	<access origin="*.feedburner.com/*/*" />
 	<access origin="*.informer.com" />
+	<access origin="*.informer.com/*" />
+	<access origin="*.informer.com/*/*" />
+	
+	<access origin="feedburner.com" subdomains="true" />
+	<access origin="feedburner.com/*" subdomains="true" />
+	<access origin="feedburner.com/*/*" subdomains="true" />
+	<access origin="informer.com" subdomains="true" />
+	<access origin="informer.com/*" subdomains="true" />
+	<access origin="informer.com/*/*" subdomains="true" />
 
 		 <!-- Permission -->
 		 
