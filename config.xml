@@ -66,11 +66,7 @@
   <access origin="gstatic.com" subdomains="true"/>
   <access origin="googleusercontent.com" subdomains="true"/>
 	
-	<access origin="*.feedburner.com" />
-	<access origin="*.feedburner.com/*" />
-	<access origin="*.feedburner.com/*/*" />
 	
-	<access origin="feedburner.com" subdomains="true" />
 	
 
 		 <!-- Permission -->
