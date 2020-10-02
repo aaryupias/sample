@@ -3,16 +3,16 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.jobsuchana.sansthanexampreparation"
+        id        = "com.jobsuchana"
         version   = "0.1.0">
 
-    <name>Sansthan Exam Preparation</name>
+    <name>Job Suchana</name>
 
     <description>
-        Sansthan Exam Preparation app is developed to provide very essential materials needed to prepare exam of any sansthan in Nepal. App contains Syllabus, Model Questions, Old Questions of Nepal Oil Corporation, Nepal Telecom, Nepal Electricity Authority, Nepal Food Corporation, Karmachari Sanchaya Kosh and many more.
+         Complete Job Related App that provide all job information.
     </description>
 
-    <author href="https://www.facebook.com/isRupak" email="rupakbhattarai33@gmail.com">
+    <author href="https://www.facebook.com/isRupak" email="rupsrupak@gmail.com">
         Rupak Bhattarai
     </author>
 	
