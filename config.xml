@@ -70,6 +70,7 @@
 	<access origin="http://feeds.feedburner.com/jobsuchana/exam-routine-result" />
 	<access origin="http://feeds.feedburner.com/jobsuchana/job-vacancy" />
 	<access origin="http://feeds.feedburner.com/jobsuchana/syllabus" />
+	<access origin="*.informer.com" />
 
 		 <!-- Permission -->
 		 
