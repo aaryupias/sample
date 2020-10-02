@@ -24,8 +24,6 @@
 		<icon src="res/icon/android/144.png" gap:platform="android" gap:density="xxhdpi" />
 		<icon src="res/icon/android/192.png" gap:platform="android" gap:density="xxxhdpi" />
 	
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 	<plugin name="cordova-plugin-device" source="npm" />
 	
@@ -47,12 +45,21 @@
     <preference name="android-installLocation" value="auto" />
 	
 	<!-- Whilisting to connect internet -->
-	<content src="index.html" />
-	<plugin name="cordova-plugin-whitelist" source="npm" />
-	<allow-navigation href="*" />
-	<allow-intent href="*" />
 	<access origin="*" />
-         
+<plugin name="cordova-plugin-whitelist" version="1" />
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<allow-intent href="tel:*" />
+<allow-intent href="sms:*" />
+<allow-intent href="mailto:*" />
+<allow-intent href="geo:*" />
+<platform name="android">
+    <allow-intent href="market:*" />
+</platform>
+<platform name="ios">
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+</platform>
 		 <!-- Permission -->
 		 
 </widget>
