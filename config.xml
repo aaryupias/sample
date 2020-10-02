@@ -24,7 +24,7 @@
 		<icon src="res/icon/android/144.png" gap:platform="android" gap:density="xxhdpi" />
 		<icon src="res/icon/android/192.png" gap:platform="android" gap:density="xxxhdpi" />
 	
-<plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
+
 	
 	<plugin name="cordova-plugin-device" source="npm" />
 	
